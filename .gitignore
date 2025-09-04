@@ -1,0 +1,33 @@
+# Python bytecode
+_pycache_/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Django files
+*.log
+*.pot
+*.mo
+*.coverage
+
+# Test cache
+.pytest_cache/
+
+# Migrations (optional to version)
+**/migrations/
+**/migrations/_pycache_/
+# */migrations/.py  # Uncomment if you don’t want to track migration files
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
